@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F5DD131519B067004E1DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD121519B067004E1DE1 /* UIKit.framework */; };
+		65F5DD151519B067004E1DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD141519B067004E1DE1 /* Foundation.framework */; };
+		65F5DD171519B067004E1DE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD161519B067004E1DE1 /* CoreGraphics.framework */; };
+		65F5DD191519B067004E1DE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD181519B067004E1DE1 /* CoreData.framework */; };
+		65F5DD1F1519B067004E1DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F5DD1D1519B067004E1DE1 /* InfoPlist.strings */; };
+		65F5DD211519B067004E1DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD201519B067004E1DE1 /* main.m */; };
+		65F5DD251519B067004E1DE1 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD241519B067004E1DE1 /* STAppDelegate.m */; };
+		65F5DD281519B067004E1DE1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F5DD261519B067004E1DE1 /* MainStoryboard.storyboard */; };
+		65F5DD2B1519B067004E1DE1 /* Stackio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD291519B067004E1DE1 /* Stackio.xcdatamodeld */; };
+		65F5DD2E1519B067004E1DE1 /* STMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD2D1519B067004E1DE1 /* STMasterViewController.m */; };
+		65F5DD311519B067004E1DE1 /* STDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD301519B067004E1DE1 /* STDetailViewController.m */; };
+		65F5DD391519B067004E1DE1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD381519B067004E1DE1 /* SenTestingKit.framework */; };
+		65F5DD3A1519B067004E1DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD121519B067004E1DE1 /* UIKit.framework */; };
+		65F5DD3B1519B067004E1DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD141519B067004E1DE1 /* Foundation.framework */; };
+		65F5DD3C1519B067004E1DE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5DD181519B067004E1DE1 /* CoreData.framework */; };
+		65F5DD441519B067004E1DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F5DD421519B067004E1DE1 /* InfoPlist.strings */; };
+		65F5DD471519B068004E1DE1 /* StackioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5DD461519B068004E1DE1 /* StackioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F5DD3D1519B067004E1DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F5DD051519B066004E1DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F5DD0D1519B067004E1DE1;
+			remoteInfo = Stackio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65F5DD0E1519B067004E1DE1 /* Stackio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stackio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5DD121519B067004E1DE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65F5DD141519B067004E1DE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65F5DD161519B067004E1DE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65F5DD181519B067004E1DE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65F5DD1C1519B067004E1DE1 /* Stackio-Info.plist */ = {isa = PBXFileReference; path = "Stackio-Info.plist"; sourceTree = "<group>"; };
+		65F5DD1E1519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F5DD201519B067004E1DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65F5DD221519B067004E1DE1 /* Stackio-Prefix.pch */ = {isa = PBXFileReference; path = "Stackio-Prefix.pch"; sourceTree = "<group>"; };
+		65F5DD231519B067004E1DE1 /* STAppDelegate.h */ = {isa = PBXFileReference; path = STAppDelegate.h; sourceTree = "<group>"; };
+		65F5DD241519B067004E1DE1 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		65F5DD271519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		65F5DD2A1519B067004E1DE1 /* Stackio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stackio.xcdatamodel; sourceTree = "<group>"; };
+		65F5DD2C1519B067004E1DE1 /* STMasterViewController.h */ = {isa = PBXFileReference; path = STMasterViewController.h; sourceTree = "<group>"; };
+		65F5DD2D1519B067004E1DE1 /* STMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMasterViewController.m; sourceTree = "<group>"; };
+		65F5DD2F1519B067004E1DE1 /* STDetailViewController.h */ = {isa = PBXFileReference; path = STDetailViewController.h; sourceTree = "<group>"; };
+		65F5DD301519B067004E1DE1 /* STDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDetailViewController.m; sourceTree = "<group>"; };
+		65F5DD371519B067004E1DE1 /* StackioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5DD381519B067004E1DE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		65F5DD411519B067004E1DE1 /* StackioTests-Info.plist */ = {isa = PBXFileReference; path = "StackioTests-Info.plist"; sourceTree = "<group>"; };
+		65F5DD431519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F5DD451519B068004E1DE1 /* StackioTests.h */ = {isa = PBXFileReference; path = StackioTests.h; sourceTree = "<group>"; };
+		65F5DD461519B068004E1DE1 /* StackioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F5DD0B1519B067004E1DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD131519B067004E1DE1 /* UIKit.framework in Frameworks */,
+				65F5DD151519B067004E1DE1 /* Foundation.framework in Frameworks */,
+				65F5DD171519B067004E1DE1 /* CoreGraphics.framework in Frameworks */,
+				65F5DD191519B067004E1DE1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5DD331519B067004E1DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD391519B067004E1DE1 /* SenTestingKit.framework in Frameworks */,
+				65F5DD3A1519B067004E1DE1 /* UIKit.framework in Frameworks */,
+				65F5DD3B1519B067004E1DE1 /* Foundation.framework in Frameworks */,
+				65F5DD3C1519B067004E1DE1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F5DD031519B066004E1DE1 = {
+			isa = PBXGroup;
+			children = (
+				65F5DD1A1519B067004E1DE1 /* Stackio */,
+				65F5DD3F1519B067004E1DE1 /* StackioTests */,
+				65F5DD111519B067004E1DE1 /* Frameworks */,
+				65F5DD0F1519B067004E1DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F5DD0F1519B067004E1DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD0E1519B067004E1DE1 /* Stackio.app */,
+				65F5DD371519B067004E1DE1 /* StackioTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F5DD111519B067004E1DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD121519B067004E1DE1 /* UIKit.framework */,
+				65F5DD141519B067004E1DE1 /* Foundation.framework */,
+				65F5DD161519B067004E1DE1 /* CoreGraphics.framework */,
+				65F5DD181519B067004E1DE1 /* CoreData.framework */,
+				65F5DD381519B067004E1DE1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F5DD1A1519B067004E1DE1 /* Stackio */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD231519B067004E1DE1 /* STAppDelegate.h */,
+				65F5DD241519B067004E1DE1 /* STAppDelegate.m */,
+				65F5DD261519B067004E1DE1 /* MainStoryboard.storyboard */,
+				65F5DD2C1519B067004E1DE1 /* STMasterViewController.h */,
+				65F5DD2D1519B067004E1DE1 /* STMasterViewController.m */,
+				65F5DD2F1519B067004E1DE1 /* STDetailViewController.h */,
+				65F5DD301519B067004E1DE1 /* STDetailViewController.m */,
+				65F5DD291519B067004E1DE1 /* Stackio.xcdatamodeld */,
+				65F5DD1B1519B067004E1DE1 /* Supporting Files */,
+			);
+			path = Stackio;
+			sourceTree = "<group>";
+		};
+		65F5DD1B1519B067004E1DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD1C1519B067004E1DE1 /* Stackio-Info.plist */,
+				65F5DD1D1519B067004E1DE1 /* InfoPlist.strings */,
+				65F5DD201519B067004E1DE1 /* main.m */,
+				65F5DD221519B067004E1DE1 /* Stackio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F5DD3F1519B067004E1DE1 /* StackioTests */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD451519B068004E1DE1 /* StackioTests.h */,
+				65F5DD461519B068004E1DE1 /* StackioTests.m */,
+				65F5DD401519B067004E1DE1 /* Supporting Files */,
+			);
+			path = StackioTests;
+			sourceTree = "<group>";
+		};
+		65F5DD401519B067004E1DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F5DD411519B067004E1DE1 /* StackioTests-Info.plist */,
+				65F5DD421519B067004E1DE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F5DD0D1519B067004E1DE1 /* Stackio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5DD4A1519B068004E1DE1 /* Build configuration list for PBXNativeTarget "Stackio" */;
+			buildPhases = (
+				65F5DD0A1519B067004E1DE1 /* Sources */,
+				65F5DD0B1519B067004E1DE1 /* Frameworks */,
+				65F5DD0C1519B067004E1DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stackio;
+			productName = Stackio;
+			productReference = 65F5DD0E1519B067004E1DE1 /* Stackio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F5DD361519B067004E1DE1 /* StackioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5DD4D1519B068004E1DE1 /* Build configuration list for PBXNativeTarget "StackioTests" */;
+			buildPhases = (
+				65F5DD321519B067004E1DE1 /* Sources */,
+				65F5DD331519B067004E1DE1 /* Frameworks */,
+				65F5DD341519B067004E1DE1 /* Resources */,
+				65F5DD351519B067004E1DE1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F5DD3E1519B067004E1DE1 /* PBXTargetDependency */,
+			);
+			name = StackioTests;
+			productName = StackioTests;
+			productReference = 65F5DD371519B067004E1DE1 /* StackioTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F5DD051519B066004E1DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "arvsukumar@gmail.com";
+			};
+			buildConfigurationList = 65F5DD081519B066004E1DE1 /* Build configuration list for PBXProject "Stackio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65F5DD031519B066004E1DE1;
+			productRefGroup = 65F5DD0F1519B067004E1DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F5DD0D1519B067004E1DE1 /* Stackio */,
+				65F5DD361519B067004E1DE1 /* StackioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F5DD0C1519B067004E1DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD1F1519B067004E1DE1 /* InfoPlist.strings in Resources */,
+				65F5DD281519B067004E1DE1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5DD341519B067004E1DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD441519B067004E1DE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F5DD351519B067004E1DE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F5DD0A1519B067004E1DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD211519B067004E1DE1 /* main.m in Sources */,
+				65F5DD251519B067004E1DE1 /* STAppDelegate.m in Sources */,
+				65F5DD2B1519B067004E1DE1 /* Stackio.xcdatamodeld in Sources */,
+				65F5DD2E1519B067004E1DE1 /* STMasterViewController.m in Sources */,
+				65F5DD311519B067004E1DE1 /* STDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5DD321519B067004E1DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5DD471519B068004E1DE1 /* StackioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F5DD3E1519B067004E1DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F5DD0D1519B067004E1DE1 /* Stackio */;
+			targetProxy = 65F5DD3D1519B067004E1DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65F5DD1D1519B067004E1DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5DD1E1519B067004E1DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65F5DD261519B067004E1DE1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5DD271519B067004E1DE1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		65F5DD421519B067004E1DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5DD431519B067004E1DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F5DD481519B068004E1DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		65F5DD491519B068004E1DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F5DD4B1519B068004E1DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
+				INFOPLIST_FILE = "Stackio/Stackio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65F5DD4C1519B068004E1DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
+				INFOPLIST_FILE = "Stackio/Stackio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65F5DD4E1519B068004E1DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stackio.app/Stackio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
+				INFOPLIST_FILE = "StackioTests/StackioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65F5DD4F1519B068004E1DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stackio.app/Stackio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
+				INFOPLIST_FILE = "StackioTests/StackioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F5DD081519B066004E1DE1 /* Build configuration list for PBXProject "Stackio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5DD481519B068004E1DE1 /* Debug */,
+				65F5DD491519B068004E1DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F5DD4A1519B068004E1DE1 /* Build configuration list for PBXNativeTarget "Stackio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5DD4B1519B068004E1DE1 /* Debug */,
+				65F5DD4C1519B068004E1DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65F5DD4D1519B068004E1DE1 /* Build configuration list for PBXNativeTarget "StackioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5DD4E1519B068004E1DE1 /* Debug */,
+				65F5DD4F1519B068004E1DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65F5DD291519B067004E1DE1 /* Stackio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65F5DD2A1519B067004E1DE1 /* Stackio.xcdatamodel */,
+			);
+			currentVersion = 65F5DD2A1519B067004E1DE1 /* Stackio.xcdatamodel */;
+			path = Stackio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65F5DD051519B066004E1DE1 /* Project object */;
+}
