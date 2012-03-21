@@ -42,23 +42,23 @@
 		65F5DD141519B067004E1DE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65F5DD161519B067004E1DE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		65F5DD181519B067004E1DE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		65F5DD1C1519B067004E1DE1 /* Stackio-Info.plist */ = {isa = PBXFileReference; path = "Stackio-Info.plist"; sourceTree = "<group>"; };
+		65F5DD1C1519B067004E1DE1 /* Stackio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stackio-Info.plist"; sourceTree = "<group>"; };
 		65F5DD1E1519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F5DD201519B067004E1DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65F5DD221519B067004E1DE1 /* Stackio-Prefix.pch */ = {isa = PBXFileReference; path = "Stackio-Prefix.pch"; sourceTree = "<group>"; };
-		65F5DD231519B067004E1DE1 /* STAppDelegate.h */ = {isa = PBXFileReference; path = STAppDelegate.h; sourceTree = "<group>"; };
+		65F5DD221519B067004E1DE1 /* Stackio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stackio-Prefix.pch"; sourceTree = "<group>"; };
+		65F5DD231519B067004E1DE1 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		65F5DD241519B067004E1DE1 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
 		65F5DD271519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		65F5DD2A1519B067004E1DE1 /* Stackio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stackio.xcdatamodel; sourceTree = "<group>"; };
-		65F5DD2C1519B067004E1DE1 /* STMasterViewController.h */ = {isa = PBXFileReference; path = STMasterViewController.h; sourceTree = "<group>"; };
+		65F5DD2C1519B067004E1DE1 /* STMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMasterViewController.h; sourceTree = "<group>"; };
 		65F5DD2D1519B067004E1DE1 /* STMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMasterViewController.m; sourceTree = "<group>"; };
-		65F5DD2F1519B067004E1DE1 /* STDetailViewController.h */ = {isa = PBXFileReference; path = STDetailViewController.h; sourceTree = "<group>"; };
+		65F5DD2F1519B067004E1DE1 /* STDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STDetailViewController.h; sourceTree = "<group>"; };
 		65F5DD301519B067004E1DE1 /* STDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDetailViewController.m; sourceTree = "<group>"; };
 		65F5DD371519B067004E1DE1 /* StackioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F5DD381519B067004E1DE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		65F5DD411519B067004E1DE1 /* StackioTests-Info.plist */ = {isa = PBXFileReference; path = "StackioTests-Info.plist"; sourceTree = "<group>"; };
+		65F5DD411519B067004E1DE1 /* StackioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackioTests-Info.plist"; sourceTree = "<group>"; };
 		65F5DD431519B067004E1DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65F5DD451519B068004E1DE1 /* StackioTests.h */ = {isa = PBXFileReference; path = StackioTests.h; sourceTree = "<group>"; };
+		65F5DD451519B068004E1DE1 /* StackioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackioTests.h; sourceTree = "<group>"; };
 		65F5DD461519B068004E1DE1 /* StackioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackioTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -380,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
 				INFOPLIST_FILE = "Stackio/Stackio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stackio/Stackio-Prefix.pch";
 				INFOPLIST_FILE = "Stackio/Stackio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
